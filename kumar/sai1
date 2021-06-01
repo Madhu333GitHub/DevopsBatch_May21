@@ -1,9 +1,11 @@
-1. git clone https://github.com/Madhu333GitHub/DevopsBatch_May21 
-2. mkdir santhosha 
-3. cd santhosha
-4. touch san1 san2 san3 
-5. cd ../
-6. git add .
-7. git commit -m “ your msg 
-8. git log 
-9. git push 
+git clone https://github.com/Madhu333GitHub/DevopsBatch_May21 
+cd DevopsBatch_May21/ 
+mkdir kumar 
+cd kumar
+touch sai1 sai2 sai3 
+cd ../
+git add .
+git commit -m “commit your msg" 
+git log 
+git push
+git pull --rebase
