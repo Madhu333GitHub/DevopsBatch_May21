@@ -1,0 +1,9 @@
+1. git clone https://github.com/Madhu333GitHub/DevopsBatch_May21 
+2. mkdir santhosha 
+3. cd santhosha
+4. touch san1 san2 san3 
+5. cd ../
+6. git add .
+7. git commit -m “ your msg 
+8. git log 
+9. git push 
