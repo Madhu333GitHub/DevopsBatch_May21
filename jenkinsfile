@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+                git branch: 'main', credentialsId: '39aad335-a937-4a18-9d23-10ab0fa30073', url: 'https://github.com/Madhu333GitHub/DevopsBatch_May21.git'
+                sh 'ls '
+            }
+        }
+    }
+}
