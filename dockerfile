@@ -1,4 +1,4 @@
 FROM centos
-MAINTAINER devops <devopstraining2015@gmail.com>
+MAINTAINER Madhu
 RUN touch /opt/test123456
-
+RUN yum install git 
